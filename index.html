@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="placar">
+        <div id="pontuacao">X: 0 | O: 0</div>
+    </div>
+    <div class="mensagem" id="mensagem"></div>
+    <div class="container">
+        <div class="tabuleiro" id="tabuleiro1">
+            <div class="celula" onclick="marcarCelula(this)"></div>
+            <div class="celula" onclick="marcarCelula(this)"></div>
+            <div class="celula" onclick="marcarCelula(this)"></div>
+            <div class="celula" onclick="marcarCelula(this)"></div>
+            <div class="celula" onclick="marcarCelula(this)"></div>
+            <div class="celula" onclick="marcarCelula(this)"></div>
+            <div class="celula" onclick="marcarCelula(this)"></div>
+            <div class="celula" onclick="marcarCelula(this)"></div>
+            <div class="celula" onclick="marcarCelula(this)"></div>
+        </div>
+    </div>
+    <div class="placar-geral">
+        <h3>Placar Geral de Vitórias</h3>
+        <ul id="placarGeral"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
